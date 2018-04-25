@@ -1,0 +1,12 @@
+.nav-link {
+  color: #FFFFFF;
+  cursor:pointer;
+}
+
+.tag-pill{
+  cursor:pointer;
+}
+.navbar-custom {
+    color: #FFFFFF;
+    background-color: #CC3333;
+}

@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+.navbar-custom {
+    color: #FFFFFF;
+    background-color: #CC3333;
+}
+.active a{
+    color: red !important;
+}
