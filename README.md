@@ -1,27 +1,38 @@
-# Header
+# MOKATH UniKnowledge Frontend Repository
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+You'll find here all sources and config for the frontend part of UniKnowledge project by MOKATH Team.
 
-## Development server
+## How to use git ?
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Before coding anything
 
-## Code scaffolding
+1. Create a new branch from `develop` with a name describing the feature you're adding : e.g."auth-service-base"
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+    1.1 `git checkout develop`
+    
+    1.2 `git checkout -b new-branch-name`
 
-## Build
+PLEASE MAKE SURE YOU CREATE THE BRANCH FROM `develop`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+2. You can ensure that you're on the correct branch with the following command :
+`git branch`
 
-## Running unit tests
+The branch you're actually working on is marked as : `* current-branch`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. To commit and push your changes to your branch :
+    
+    3.1 Ensure you're on the right branch : `git branch` it SHOULD NOT be `develop` or `master`
+    
+    3.2 `git add -A`
+    
+    3.3 `git commit -m "Describe your changes"`
+    
+    3.4 `git push`
 
-## Running end-to-end tests
+## Build and Run Angular App Commands
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+1. Install dependencies
+`npm install`
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+2. Build and Serve Angular App
+`ng serve --open`
