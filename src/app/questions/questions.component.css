@@ -1,0 +1,15 @@
+.un{
+  position: absolute; left: 8px;font-weight:bold;font-size:15px;
+  color:black;border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;
+  padding: 10px 100px 10px 100px;}
+.deux{
+  position: absolute; left: 304px;font-weight:normal;font-size:15px;
+  color:black;border-right: 1px solid;border-bottom: 1px solid;
+  padding: 10px 100px 10px 100px;}
+.trois{
+  position: absolute; left: 8px;font-weight:normal;font-size:20px;
+  color:black;border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;
+  padding: 300px 1078px 500px 40px;}
+  #search-btn1{position: absolute; left: 200px;border: 0px solid; padding: 7px 7px 7px 7px; background-color:blue;
+  border-radius: 5px;color: white;font-size:12px; font-weight:bold;margin-left: 10px;}
+.champUni{position: absolute; left: 50px;top: 450px;boder:1px solid;padding: 30px 150px 30px 150px;}

@@ -1,0 +1,16 @@
+.un{
+  position: absolute;top: 150px; left: 500px;font-weight:normal;font-size:30px;
+  color:black;padding: 30px 200px 100px 100px;
+  }
+  .deux{
+    position: absolute;top: 180px; left: 500px;font-weight:normal;font-size:5px;
+    padding: 45px 50px 50px 100px;
+    }
+    #search-btn1{border: 0px solid; padding: 10px 7px 10px 7px; background-color:DeepSkyBLue;
+      border-radius: 5px;color: white;font-size:12px; font-weight:bold;margin-left: 10px; }
+    #search-btn2{border: 0px solid; padding: 10px 25px 10px 25px ;background-color: Orange;
+      font-size:12px; font-weight:bold; border-radius: 5px;color: white;margin-left: 10px;}
+    #search-btn3{border: 0px solid; padding: 10px 7px 10px 7px;background-color: DeepPink;
+      font-size:12px; font-weight:bold;border-radius: 5px;color: white;margin-left: 10px;}
+    #search-btn4{border: 0px solid; padding: 10px 20px 10px 20px ; background-color: MediumOrchid;
+      font-size:12px; font-weight:bold;border-radius: 5px;color: white;margin-left: 10px;}
