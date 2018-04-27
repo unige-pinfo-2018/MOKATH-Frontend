@@ -36,4 +36,3 @@ The branch you're actually working on is marked as : `* current-branch`
 
 2. Build and Serve Angular App
 `ng serve --open`
->>>>>>> base-skeleton
