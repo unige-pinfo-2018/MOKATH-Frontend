@@ -61,13 +61,13 @@
           <span [hidden]="!canModify">
           <a class="btn btn-sm btn-outline-secondary"
              [routerLink]="['/editor', article.slug]">
-            <i class="ion-edit"></i> Edit Article
+            <i class="ion-edit"></i> Edit Question
           </a>
 
           <button class="btn btn-sm btn-outline-danger"
             [ngClass]="{disabled: isDeleting}"
             (click)="deleteArticle()">
-            <i class="ion-trash-a"></i> Delete Article
+            <i class="ion-trash-a"></i> Delete Question
           </button>
         </span>
 
