@@ -32,7 +32,7 @@ export class EditorComponent implements OnInit {
     this.article.tagList = [];
 
     // Optional: subscribe to value changes on the form
-    // this.articleForm.valueChanges.subscribe(value => this.updateArticle(value));
+    this.articleForm.valueChanges.subscribe(value => this.updateArticle(value));
   }
 
   ngOnInit() {
